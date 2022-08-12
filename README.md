@@ -1,2 +1,5 @@
-# csd-340
-A repository for my CSD340 coursework.
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+* Sue Sampson
+* Taylor Reid
