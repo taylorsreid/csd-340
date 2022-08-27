@@ -1,11 +1,11 @@
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
 #container {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-}
-
-body {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
