@@ -1,0 +1,56 @@
+#leftdiv {
+    float: left;
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#rightdiv {
+    float: right;
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#bottomdiv {
+    margin-top: 60%;
+    width: 100%;
+    float: right;
+    margin-bottom: 20px;
+    text-align: right; /* For some reason if you don't do this, it aligns to the left even after floating it to the right. */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ul, ol {
+    border-width: 1px;
+    border-color: red;
+    font-weight: 300;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ol {
+    border-style: solid;
+    list-style-position: inside;
+}
+
+ul {
+    border-style: dashed;
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
