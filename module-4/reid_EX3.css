@@ -42,7 +42,7 @@ ol {
 
 ul {
     border-style: dashed;
-    list-style: upper-roman;
+    list-style-type: upper-roman;
     list-style-position: inside;
 }
 
