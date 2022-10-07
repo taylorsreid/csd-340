@@ -16,47 +16,43 @@ hr {
     margin-bottom: 2rem;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+li {
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border-width: .5rem;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+}
+
+footer {
+
+}
+
+img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .column {
     float: left;
     width: 30%;    
     margin: 1rem;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10%;
-  }
+}
 
-.column h4 {
+.center, .hobbies {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+.work {
 
-li {
-    padding: 1rem;
-}
-
-#selfie {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 1rem;
-    border-style: solid;
-    border-radius: 10%;
-    border-color: black;
-}
-
-#selfie:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
