@@ -32,7 +32,8 @@ img {
 }
 
 footer {
-
+    position: fixed;
+    bottom: 0;
 }
 
 img:hover {
@@ -50,9 +51,4 @@ img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-.work {
-
 }
