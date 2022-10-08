@@ -8,50 +8,77 @@
 <html lang="en">
     <head>
         <title>MyBio Assignment</title>
-        <link href="styles.css" type="text/css" rel="stylesheet" />
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
-        <header class="center">
-            <h1>About Taylor</h1>
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <img src="me.jpg" alt="Profile Picture">
+                    </td>
+                    <td>
+                        <h1>About Taylor</h1>
+                    </td>
+                </tr>
+            </table>
         </header>
-        
-        <img src="me.jpg">
-
-        <hr>
         
         <h2 class="center">Personal Hobbies</h2>
 
-        <div class="hobbies">
-            <div class="column">
-                <h4>Amateur Radio</h4>
-                
-            </div>
+        <table class="card">
+            <tr>
 
-            <div class="column">
-                <h4>Hiking</h4>
-                <figure>
-                    <img src="hiking.jpg">
-                    <figcaption>
-                        I enjoy hiking because I live in a beautiful state with some amazing mountain hikes with views of the whole island,
-                        and sometimes other islands if it's a nice clear day.
-                    </figcaption>
-                </figure>
-            </div>
+                <td>
+                    <h4 class="center">Amateur Radio</h4>
+                    <figure>
+                        <img src="radio.jpg" alt="Here I am looking for a contact on the air.">
+                        <figcaption>
+                            <p>I've always liked electronics and got my amateur radio license a few years ago.  Callsign: KO4LCM</p>
+                            <p>Here I am looking for a contact on the air.</p>
+                        </figcaption>
+                    </figure>
+                </td>
 
-            <div class="column">
-                <h4>Programming</h4>
-                
-            </div>
-        </div>
+                <td>
+                    <h4 class="center">Hiking</h4>
+                    <figure>
+                        <img src="hiking.jpg" alt="My wife and I a few years ago hiking up to Manoa Falls.">
+                        <figcaption>
+                            <p>I enjoy hiking because I live in a beautiful state with amazing hikes and views.</p>
+                            <p>My wife and I a few years ago hiking up to Manoa Falls.</p>
+                        </figcaption>
+                    </figure>
+                </td>
 
-        <br /><br />
+                <td>
+                    <h4 class="center">Programming</h4>
+                    <figure>
+                        <img src="programming.jpg" alt="Here I am working on a homework assignment in Java.">
+                        <figcaption>
+                            <p>I recently rekindled my passion for programming and decided to go back to school to pursue it as a career.</p>
+                            <p>Here I am working on a homework assignment in Java.</p>
+                        </figcaption>
+                    </figure>
+                </td>
 
-        <div class="work">
-            <h2 class="center">Work Experience</h2>
-                <div class="column">
+            </tr>
+        </table>
+
+        <br><br>
+
+        <h2 class="center">Work Experience</h2>
+
+        <table class="card">
+            <tr>
+                <td>
                     <h4 class="center">Bus Driver - Walt Disney World Resort</h4>
-                    &emsp;&emsp;&emsp;Responsibilities:
+                    <p class="center">January 2015 - March 2021</p>
+                    <p class="indent">Responsibilities:</p>
                     <ul>
                         <li>Pick up & drop off at designated stops.</li>
                         <li>Follow planned routes on time schedules.</li>
@@ -60,39 +87,46 @@
                         <li>Safe operation of regular and articulated buses on over 100 different routes.</li>
                         <li>Assist passengers in navigating the extensive WDW transportation system.</li>
                     </ul>
-                </div>
-                <div class="column">
-                    <h4 class="center">Driver/Warehouse - Paradise Beverages</h4>
-                    &emsp;&emsp;&emsp;Responsibilities:
-                    <ul>
-                        <li>Deliver alcoholic and non-alcoholic beverages to accounts.</li>
-                        <li>Stack and carry packaged beverages using hand trucks and carts.</li>
-                        <li>Count and receive cash and checks.</li>
-                        <li>Accurately count inventory.</li>
-                        <li>Operate trucks safely according to policies and government regulations.</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4 class="center">Bellman - Aulani, A Disney Resort and Spa</h4>
-                    &emsp;&emsp;&emsp;Responsibilities:
-                    <ul>
-                        <li>Greet guests and provided support and assistance to them with any tasks.</li>
-                        <li>Communicate with guests to ensure that their needs and requirements always fulfilled.</li>
-                        <li>Transport luggage, promoted the resort's features and services, provid advice to guests on local history, dining options, and cultural points when necessary.</li>
-                        <li>Report any incidents, resolve any problematic issues, worked closely with captains and managers, and perform other duties as assigned.</li>
-                    </ul>
-                </div>
-            </div>
+                </td>
 
-        <br /><br />
+                <td>
+                    <h4 class="center">Valet - Aulani, A Disney Resort and Spa</h4>
+                    <p class="center">October 2021 - September 2022</p>
+                    <p class="indent">Responsibilities:</p>
+                    <ul>
+                        <li>Direct traffic as needed and assist guests in entering and leaving the resort.</li>
+                        <li>Collect and accurately label keys belonging to guests to ensure their proper return.</li>
+                        <li>Park guests' vehicles in predetermined areas within the parking lot while following all traffic laws.</li>
+                        <li>Operate vehicles safely and responsibility.</li>
+                        <li>Organize and file paperwork regarding guests' vehicles and daily transactions.</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <h4 class="center">Bellman - Aulani, A Disney Resort and Spa</h4>
+                    <p class="center">September 2022 - Present</p>
+                    <p class="indent">Responsibilities:</p>
+                    <ul>
+                        <li>Greet guests and provide support and assistance to them with any tasks.</li>
+                        <li>Communicate with guests to ensure that their needs and requirements are always met.</li>
+                        <li>Transport luggage, promote resort's features and services, provide advice to guests</li>
+                        <li>Report incidents, resolve problematic issues, work closely with supervision.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
         
         <footer class="center">
+            <hr>
             <p>Taylor Reid</p>
-            <br />
+            <p>tareid@my365.bellevue.edu</p>
             <form action="mailto:tareid@my365.bellevue.edu" method="get" target="_blank">
                 <button type="submit">Send Message</button>
             </form>
-            <p>Copyright 2022 Reid</p>
+            <br>
+            <a href="../index.html">Return Home</a>
         </footer>
 
     </body>
